@@ -10,6 +10,8 @@ int main(){
 	a = b;      // a = b = 19;
 	b = temp;   // b = temp = 13;
 	
+	//	printf("temp: %d \n", temp);
+	
 	printf("a: %d \n", a);
 	printf("b: %d", b);
 }
