@@ -1,43 +1,31 @@
 #include<stdio.h>
 
-//int say_some(){
-//	
-//	return 100;
-//	printf("%d", 100);
-//}
-//
-//int say_more(){
-//	return 200;
-//}
+
+
+// TNRS - take nothing return something
 
 
 
-int sum(n){
-	int i;
-	int sum =0;
-	for(i=0; i<=n; i++){
-		sum = sum + i;
-	}
+int say_some(){
 	
-	return sum;
+	return 100;
+}
+
+int say_more(){
+	return 200;
 }
 
 
-int main(){
-	
-	int	a;
-	a = 10;
-	
-	int avg = sum(a)/a;
 
-printf("avg: %d ", avg);
+
+int main(){
+
+	a =100;
 	
-//	a =100;
-//	
-//	say_some() == 100
-//	
-//	printf("chec: ");
-//	printf("%d", say_some()+say_more());	
+	say_some() == 100
+	
+	printf("chec: ");
+	printf("%d", say_some()+say_more());	
 	
 	return 0;
 }
